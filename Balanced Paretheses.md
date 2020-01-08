@@ -28,8 +28,7 @@ class Stack():
             print('Yes')
         else:
             print('No')
-
-s=Stack() # Creating object of Stack Class
+s=Stack()
 n=input()
 s.push(n)
 s.check()
